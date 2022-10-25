@@ -1,0 +1,16 @@
+.contaner{
+    background-color:cyan;
+}
+h3
+{
+  font-size: 25px !important;
+  letter-spacing: 2xp;
+  font-family:fantasy;
+}
+canvas {
+    border:1px solid black;
+}
+.snapshot{
+  width: 500px;
+  height: 40;
+}
