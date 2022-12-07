@@ -1,16 +1,15 @@
-function preload(){
-    img = loadImage("https://images.pexels.com/photos/50577/hedgehog-animal-baby-cute-50577.jpeg?auto=compress&cs=tinysrgb&w=600")
-}
 
 function setup(){
     Canvas = createCanvas(500,500);
     Canvas.position(430,200);
+    video = createCapture(VIDEO)
+    video.hide()
     }
     
     tintColor = "";
     
     function draw(){
-        image(img,100,100,350,350);
+        image(video,100,100,350,350);
         tint(tintColor)
         circle(30, 30, 60);
         fill(100,30,30,)
@@ -25,6 +24,6 @@ function setup(){
     }
     
     function take_snapshot(){
-        save("student_name.jpg");
+        save("img.jpg");
     }
     
